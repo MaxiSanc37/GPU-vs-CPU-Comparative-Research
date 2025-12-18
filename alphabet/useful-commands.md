@@ -62,3 +62,16 @@ Sampling:
 ```
 NANOGPT_CONFIG=../../comp560-nanoGPT/configurator.py  python -u ../../comp560-nanoGPT/sample.py config/reverse.py --num_samples=1 --max_new_tokens=100 --seed=2
 ```
+
+## students model
+
+Training:
+```
+NANOGPT_CONFIG=../../comp560-nanoGPT/configurator.py  python -u ../../comp560-nanoGPT/train.py config/students.py
+```
+
+
+Sampling:
+```
+NANOGPT_CONFIG=../../comp560-nanoGPT/configurator.py  python -u ../../comp560-nanoGPT/sample.py config/students.py --num_samples=1 --max_new_tokens=100 --seed=2
+```
